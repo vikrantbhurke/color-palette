@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="navbar" class="background-color">
+        <input type="color" id="input-color" />
+        <select name="scheme" id="scheme">
+          <option value="monochrome">Monochrome</option>
+          <option value="monochrome-dark">Monochrome-Dark</option>
+          <option value="monochrome-light">Monochrome-Light</option>
+          <option value="analogic">Analogic</option>
+          <option value="complement">Complement</option>
+          <option value="analogic-complement">Analogic-complement</option>
+          <option value="triad">Triad</option>
+          <option value="quad">Quad</option>
+        </select>
+        <button id="get-color">Get Colors</button>
+      </div>
+
+      <div id="color-container"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
